@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
+  font-family: 'Mulish', sans-serif;
+  font-weight:400 !important;
+}
+
+strong, h1, h2, h3 {
+  font-weight:700 !important;
 }
 
 .App-logo {
@@ -12,6 +23,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+} */
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +51,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.head {
+  background-color:#afd4e2;
+  background-image: url("/public/hero-bg.png");
+  background-repeat:no-repeat;
+  background-position-x: right;
+  background-position-y: 30%;
+  padding-bottom:6rem;
+}
+
+.navbar.bg-light {
+  background:transparent !important;
+  margin-bottom: 4rem;
+}
+
+.gr-nav {
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.card {
+  margin-bottom:5rem;
+}
+
+.card .card-body {
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -15%;
+  background-color: white;
+  font-size:0.8em !important;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+.btn.btn-primary {
+  background-color:#1e3240;
+  border:1px solid #1e3240;
+  color:white;
+}
+
+.btn.btn-secondary {
+  background-color:transparent;
+  border:1px solid #1e3240;
+  color:#1e3240;
+}
+
+h4 {
+  opacity:0.4;
+  font-weight:400 !important;
+  font-size:1em !important;
+}
+
+h5 {
+  color:#AFD4E2 !important;
+  text-transform: uppercase!important;
+  font-size:0.9em !important;
+}
+
+.foot {
+  background-color:#1E3240;
+  color:white !important;
+}
+
+.foot ul {
+  list-style:none;
+  padding:0;
+  opacity:0.7;
 }
